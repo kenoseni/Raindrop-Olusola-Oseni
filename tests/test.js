@@ -20,10 +20,10 @@ describe('rainDrops', () => {
 
     describe('it should return a combination of Pling, Plong or Plang if the prime factors of a number is a combination 3, 5, or 7', () => {
         
-        it('should return "PlingPlang" when the number 1755 is passed as an argument', () => {
+        it('should return "PlingPlang" when the number 21 is passed as an argument', () => {
             expect(rainDrops(21)).to.be.equal("PlingPlong")
         });
-        it('should return "PlangPlong" when the number 1755 is passed as an argument', () => {
+        it('should return "PlangPlong" when the number 35 is passed as an argument', () => {
             expect(rainDrops(35)).to.be.equal("PlangPlong")
         });
         it('should return "PlingPlang" when the number 1755 is passed as an argument', () => {
